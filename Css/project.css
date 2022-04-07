@@ -1,0 +1,154 @@
+
+/* Banner */
+.carousel-inner button{
+    border: 1px solid black;
+    background-color: transparent;
+    margin: .5rem;
+    letter-spacing: 2px;
+    font-weight: 600    ;
+}
+
+.carousel-inner button:hover{
+    background-color: red;
+    padding: .3rem;
+}
+
+
+#lookbook .container .row .col img{
+    transition: .3s all;
+}
+#lookbook .container .row .col .icon{
+    color: goldenrod;
+}
+
+#lookbook .container .row .col:hover img{
+    opacity: .7;
+}
+
+#lookbook .container .row .col h6 del{
+    color: red;
+}
+#lookbook .container .row .col .btn{
+    font-size: smaller;
+    background-color: transparent;
+    border: 1px solid black;
+    opacity: .7;
+    transform: translateY(20px);
+    transition: .3s all;
+    opacity: 0;
+}
+
+#lookbook .container .row .col:hover .btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/* Clothing */
+#clothing .container .row .col img{
+    transition: .3s all;
+}
+
+
+#clothing .container .row .col .icon{
+    color: goldenrod;
+}
+
+#clothing .container .row .col:hover img{
+    opacity: .7;
+}
+
+#clothing .container .row .col h6 del{
+    color: red;
+}
+#clothing .container .row .col .btn{
+    font-size: smaller;
+    background-color: transparent;
+    border: 1px solid black;
+    opacity: .7;
+    transform: translateY(20px);
+    transition: .3s all;
+    opacity: 0;
+}
+
+#clothing .container .row .col:hover .btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/* shop */
+
+
+.container {
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+.container .row .col .overlay{
+    position: absolute;
+    bottom: 8px;
+}
+.container .row .col .overlay2{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.container .row .col img{
+    width: 80%;
+    margin-top: 2rem;
+}
+
+
+.container .img-1 .col img:hover{
+    padding: 5px;
+}
+
+#icon .container .row .col img{
+    width: 70px;
+}
+
+.container .row .col .el-btn-1{
+    background-color: transparent;
+    margin-bottom: 3rem;
+    letter-spacing: .1rem;
+    padding: .2rem;
+}
+
+.container .row .col .el-btn-1:hover{
+    color: red;
+}
+
+.container .row .col i{
+    margin: 7px;
+    color: white;
+
+}
+
+.btn .row .col button{
+    border: 2px solid black;
+    letter-spacing: .3rem;
+    padding: .9rem;
+    font-weight: bolder;
+}
+
+.btn .row .col button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+/* Blog */
+
+#blog .container .row .display-6{
+    font-weight: bolder;
+}
+
+  
+
+  
+  
+  
+ 
